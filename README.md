@@ -1,2 +1,0 @@
-# yipuran-mail
-JavaMail application
