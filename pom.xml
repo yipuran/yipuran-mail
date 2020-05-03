@@ -46,7 +46,6 @@
 		<version>4.15</version>
 	</dependency>
 </dependencies>
-
 <build>
 	<plugins>
 		<plugin>
