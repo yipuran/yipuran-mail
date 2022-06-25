@@ -1,0 +1,13 @@
+org\yipuran\mail\SendMailTaskBuilder.class
+org\yipuran\mail\pop\RecvMailBean.class
+org\yipuran\mail\Encode.class
+org\yipuran\mail\MessageFactory.class
+org\yipuran\mail\MailSource.class
+org\yipuran\mail\pop\PopAgent.class
+org\yipuran\mail\pop\PopAgentImpl.class
+org\yipuran\mail\pop\PopAgentBuilder$2.class
+org\yipuran\mail\SendMailTaskBuilder$1.class
+org\yipuran\mail\SendmailTask.class
+org\yipuran\mail\pop\PopAgentBuilder.class
+org\yipuran\mail\pop\PopHandler.class
+org\yipuran\mail\pop\PopAgentBuilder$1.class
