@@ -89,6 +89,7 @@ public class SendmailTask implements Callable<Integer>{
 				transport = session.getTransport("smtp");
 				transport.connect(server, user, password);
 				transport.sendMessage(mimeMessage,mimeMessage.getAllRecipients());
+				transport.close();
 			}else{
 				Transport.send(mimeMessage);
 			}
@@ -171,6 +172,7 @@ public class SendmailTask implements Callable<Integer>{
 	 * @throws MessagingException MimeMessageエラー
 	 * @throws UnsupportedEncodingException エンコードエラー
 	 */
+	@SuppressWarnings("unlikely-arg-type")
 	private MimeMessage setMimeAddres(MimeMessage mime,Map<String,String> map,Message.RecipientType type) throws MessagingException,UnsupportedEncodingException{
 		int mapsize = map.size();
 		if (mapsize==0){ return mime; }
